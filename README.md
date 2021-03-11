@@ -11,7 +11,7 @@ Filenames follow the convention:
 ```
 seattle_msw_{stream}.csv
 ```
-where `{stream}` denotes the waste stream the data refer to, which should be one of `residential`, `commercial`, or `selfhaul`.
+where `{stream}` denotes the waste stream the data refer to, which should be one of `commercial`, `residential`, or `selfhaul`.
 
 ## Data Dictionary
 
@@ -29,7 +29,32 @@ where `{stream}` denotes the waste stream the data refer to, which should be one
 | **yoy\_recycle\_rate** | float | percentage | floats | year-over-year percentage change in total Municipal Solid Waste generated that was diverted from landfills through recycling and composting |
 | **yoy\_population** | float | percentage | floats | year-over-year percentage change in Seattle population |
 
+## Metadata
+Schema Used: Project Open Data
 
+| **Attribute** | **Value** |
+| --- | --- |
+| accessLevel | public |
+| accrualPeriodicity | R/P1Y |
+| fn | Brandon Aleson |
+| hasEmail | [alesausk@uw.edu](mailto:alesausk@uw.edu) |
+| describedBy | https://github.com/barlaensdoonn/seattle-municipal-solid-waste-2000-2019/blob/main/README.md |
+| description | This dataset contains 20 years (2000-2019) of data for Seattle Public Utilities' Municipal Solid Waste program, including tons of waste generated, disposed, and recycled/composted for 3 waste streams: Residential, Commercial, and Self-Haul. The intended audience are researchers. |
+| accessURL | https://github.com/barlaensdoonn/seattle-municipal-solid-waste-2000-2019 |
+| downloadURL | https://github.com/barlaensdoonn/seattle-municipal-solid-waste-2000-2019/archive/main.zip |
+| format | CSV |
+| mediaType | CSV |
+| issued | 2021-03-10 |
+| keyword | &quot;recycling&quot;, &quot;compost&quot;, &quot;municipal solid waste&quot;, &quot;seattle&quot; |
+| landingPage | https://github.com/barlaensdoonn/seattle-municipal-solid-waste-2000-2019 |
+| language | en-us |
+| modified | 2021-03-10 |
+| publisher | Brandon Aleson |
+| references | [http://www.seattle.gov/Documents/Departments/SPU/Documents/Recycling_Rate_Report_2019.pdf](http://www.seattle.gov/Documents/Departments/SPU/Documents/Recycling_Rate_Report_2019.pdf) |
+| Rights | These data are freely available to the public for all use and reuse |
+| temporal | 2000-2019 |
+| theme | recycling, municipal solid waste |
+| title | Seattle Municipal Solid Waste 2000-2019 |
 
 ## Rights
 
